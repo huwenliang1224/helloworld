@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strategy>
+    <strategy_type>dsp</strategy_type>
+    <dsp_name>toutiao</dsp_name>
+    <req_url>https://i.snssdk.com/api/ad/union/get_ads/</req_url>
+    <concurrency>500</concurrency>
+    <top>1500000</top>
+    <token>111</token>
+    <pkg_name>aaa</pkg_name>
+    <dsp_id>321</dsp_id>
+    <ids>
+        <!-- 赢纳codeid:app包名:头条appid:头条广告位id):app类型：创意类型1/2/3(1:TEXT;2:TEXT_ICON;3:IMAGE):返回结构体1/2(1:banner，2：flowinfo)-->
+        <id>azCAZFn10116:com.dotools.weather:5000581:900581286:0303:3:1</id>
+        <id>azCAZFn10117:com.dotools.weather:5000581:900581286:0303:3:1</id>
+    </ids>
+    <daily>
+        <start>08:00:00</start>
+        <end>23:00:00</end>
+    </daily>
+    <time>
+        <start>2017/05/23 00:00:00</start>
+        <end>2017/06/16 23:00:00</end>
+    </time>
+    <area>
+        <areas>
+            <area>上海</area>
+            <area>北京</area>
+        </areas>
+    </area>
+    <img>
+        <imgs>
+            <img>http://xxx1</img>
+            <img>http://xxx2</img>
+        </imgs>
+    </img>
+    <exclude_mac>
+        <files>
+            <file>exclude_mac.txt</file>
+        </files>
+    </exclude_mac>
+    <win_notice_url>
+        <urls>
+            <url>https://www.baidu.com/</url>
+        </urls>
+    </win_notice_url>
+    <click_notice_url>
+        <urls>
+            <url>https://www.baidu.com/</url>
+        </urls>
+    </click_notice_url>
+    <click_url>https://engine.tuia.cn/index/activity?appKey=2Eby7kZA8APXkxtPzsWYWHb2TqxX&amp;adslotId=564</click_url>
+    <weight>10</weight>
+    <material_icon>icon.jpg</material_icon>
+    <material_title>百米生活期待与您合作</material_title>
+    <material_desc>百米生活</material_desc>
+    <material_type>TEXT</material_type>
+</strategy>
